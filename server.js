@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/api", userRoutes);
 
 app.get("/", (req, res) => {
-    res.send("Backend running on Vercel");
+    res.send("Backend Running !");
 });
 
 const port = process.env.PORT || 3000;
